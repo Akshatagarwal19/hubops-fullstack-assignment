@@ -100,6 +100,7 @@ Health check endpoint for monitoring and deployment validation.
   "uptime": 123.456,
   "timestamp": "2025-01-01T00:00:00.000Z"
 }
+```
 This endpoint can be used for uptime monitoring and infrastructure health checks.
 
 ## Scalability & Production Considerations
