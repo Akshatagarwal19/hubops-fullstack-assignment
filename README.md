@@ -84,7 +84,8 @@ Returns a list of available services.
       "description": "Strategic positioning and messaging for B2B brands."
     }
   ]
-}```
+}
+```
 This endpoint currently uses a static data source but is structured to support database integration in future iterations.
 
 ### GET /api/health
