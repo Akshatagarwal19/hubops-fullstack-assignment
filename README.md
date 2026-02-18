@@ -91,7 +91,10 @@ This endpoint currently uses a static data source but is structured to support d
 ### GET /api/health
 Health check endpoint for monitoring and deployment validation.
 
-Response Example:
+```markdown
+**Response Example:**
+
+```json
 {
   "status": "OK",
   "uptime": 123.456,
@@ -139,14 +142,17 @@ For production:
 
 ## Local Setup Instructions
 
+```markdown
 ### 1. Clone Repository
 
-
+```bash
 git clone https://github.com/Akshatagarwal19/hubops-fullstack-assignment.git
 cd hubops-fullstack-assignment
 
+```markdown
 ### 2. Setup Backend
 
+```bash
 cd Backend
 npm install
 npm run dev
