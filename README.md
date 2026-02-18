@@ -140,7 +140,7 @@ For production:
 - Rate limiting would be added to prevent abuse.
 - Input validation middleware would be introduced.
 - CORS configuration would be restricted to trusted origins.
-```markdown
+
 ## Local Setup Instructions
 
 ### 1. Clone Repository
