@@ -139,17 +139,16 @@ For production:
 - Rate limiting would be added to prevent abuse.
 - Input validation middleware would be introduced.
 - CORS configuration would be restricted to trusted origins.
-
+```markdown
 ## Local Setup Instructions
 
-```markdown
 ### 1. Clone Repository
 
 ```bash
 git clone https://github.com/Akshatagarwal19/hubops-fullstack-assignment.git
 cd hubops-fullstack-assignment
 
-```markdown
+```
 ### 2. Setup Backend
 
 ```bash
@@ -157,22 +156,36 @@ cd Backend
 npm install
 npm run dev
 
-Backend runs at: http://localhost:5000
+```
+Backend runs at: 
 
+```bash
+http://localhost:5000
+
+```
 ### 3. Setup Frontend
 
+```bash
 cd Frontend
 npm install
+```
 
 Create .env.local file inside Frontend/:
 
+```bash
 NEXT_PUBLIC_API_URL=http://localhost:5000
+```
 
 Then Run
+
+```bash
 npm run dev
+```
 
-Frontend runs at: http://localhost:3000/services
-
+Frontend runs at: 
+```bash
+http://localhost:3000/services
+```
 
 ---
 
